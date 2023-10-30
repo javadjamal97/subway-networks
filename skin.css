@@ -128,8 +128,16 @@ div.adv-img-side-content .btn:hover, .nav-pills > li.active > a, .mega-menu .nav
 * ===================
 */
 
-h1, .h1, h2, .h2, h3, .h3, h4, h5, h6, .icon-box.text-bold label, .countdown .countdown-values {
-    color: #ededed;
+.h1, .h2, h3, .h3, h4, h5, h6, .icon-box.text-bold label, .countdown .countdown-values {
+    color: #636363;
+}
+
+h2{
+    color: #636363;
+}
+
+h1{
+    color: #efefef;
 }
 
 a {
@@ -831,6 +839,7 @@ ul.list-texts li b {
 .title-base {
     margin-bottom: 20px;
 }
+
 
 .title-base-1 {
     margin-bottom: 20px;

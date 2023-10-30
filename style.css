@@ -4849,6 +4849,11 @@ TITLE BASE
     position: relative;
 }
 
+.title-base-2 {
+    text-align: center;
+    position: relative;
+}
+
     .title-base.title-small {
         margin: 0 0 35px 0;
     }

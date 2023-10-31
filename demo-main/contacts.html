@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../css/components.css">
     <link rel="icon" href="../images/logos/favicon.png">
     <link rel="stylesheet" href="../skin.css">
+    
     <!-- Extra optional content header -->
 </head>
 <body class="contacts">
@@ -82,7 +83,19 @@
 
     
     <div class="section-empty section-item">
-        <div class="google-map" data-coords="26.565191, 49.996376" data-skin="gray" data-zoom="10" data-marker-pos-top="20" data-marker="http://templates.framework-y.com/techline/images/marker-map.png"></div>
+
+
+        <iframe
+    width="100%"
+    height="450"
+    frameborder="0"
+    style="border:0"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14276.58975238341!2d50.0021073!3d26.547531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e35ff975ca00dbb%3A0xb9de1258e23fcbf!2sSubway%20Networks!5e0!3m2!1sen!2sae!4v1698765776882!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    allowfullscreen
+  ></iframe>
+
+
+        <!-- <div class="google-map" data-coords="26.565191, 49.996376" data-skin="gray" data-zoom="10" data-marker-pos-top="20" data-marker="http://templates.framework-y.com/techline/images/marker-map.png"></div> -->
         <div class="container content">
             <div class="row">
                 <div class="col-md-12">
@@ -91,6 +104,40 @@
                         Find out more about how we can help your organization navigate its next. <br> Let us know your areas of interest so that we can serve you better.
                     </p>
                     <hr class="space s" />
+
+
+
+                    <form action="mailto:sales@subwaynetworks.com" method="post" enctype="text/plain">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Name</p>
+                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Email</p>
+                                <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
+                            </div>
+                        </div>
+                        <hr class="space s" />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Phone</p>
+                                <input id="phone" name="phone" placeholder="" type="text" class="form-control form-value">
+                                <hr class="space s" />
+                                <p>Message</p>
+                                <textarea id="message" name="message" class="form-control form-value" required></textarea>
+                                <hr class="space s" />
+                                <button class="anima-button circle-button btn-sm btn" type="submit">
+                                    <i class="im-mailbox-empty"></i> Send message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    
+
+                    
+
+<!-- 
                     <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post">
                         <div class="row">
                             <div class="col-md-6">
@@ -117,7 +164,10 @@
                         <div class="error-box">
                             <div class="alert alert-warning">Error, please retry. Your message has not been sent</div>
                         </div>
-                    </form>
+                    </form> -->
+
+
+
                 </div>
             </div>
 
@@ -134,7 +184,7 @@
                         <div class="col-md-4">
                             <h4>HeadQuaters</h4>
                             <ul class="fa-ul">
-                                <li><i class="fa-li im-skype"></i> SubwayNetworks</li>
+                                <li><i class="fa-li im-skype"></i> Subway Networks</li>
                                 <li><i class="fa-li im-headset"></i> +966 138 635 333</li>
                                 <li><i class="fa-li im-headset"></i> +966 55 204 4500</li>
                                 <li><i class="fa-li im-mail-3"></i>  sales@subwaynetworks.com</li>
@@ -165,7 +215,7 @@
                                 <li><i class="fa-li im-mail-3"></i>  sales@subwaynetworks.com</li>
                                 <li>
                                     <i class="fa-li im-home-5"></i>
-                                    Subway Networks FZE, Z - 11, Saif Zone, Sharjah, United Arab Emirates
+                                    Subway Networks FZE,<br> Office - 11,  Building Z, Saif Zone, <br> Sharjah, United Arab Emirates
                                 </li>
                             </ul>
                         </div>
@@ -246,12 +296,12 @@
                                 <p class="font-size-18 font-wt-600 mb-1">Business Portfolio</p>
                                 <div class="row-2">
                                 <ul class="ul-squares">
-                                    <li><a href="#">Construction</a></li>
-                                    <li><a href="#">IT and Communication</a></li>
-                                    <li><a href="#">Trading</a></li>
-                                    <li><a href="#">Interior Design</a></li>
-                                    <li><a href="#">Cybersecurity</a></li>
-                                    <li><a href="#">Engineering Services</a></li>
+                                    <li><a href="business-engineering-services.html">Engineering Services</a></li>
+                                    <li><a href="business-operational-and-cybersecurity.html">Operational Technology & Cybersecurity</a></li>
+                                    <li><a href="business-information-technology.html">IT and Communication</a></li>
+                                    <li><a href="business-construction.html">Construction</a></li>
+                                    <li><a href="business-trading.html">Trading</a></li>
+                                    <li><a href="business-interior-design.html">Interior Design</a></li>
                                 </ul>
                             </div>
                             </div>
@@ -282,12 +332,12 @@
                                 <p class="font-size-18 font-wt-600 mb-1">Business Portfolio</p>
                                 <div class="row-2">
                                 <ul class="ul-squares">
-                                    <li><a href="#">Construction</a></li>
-                                    <li><a href="#">IT and Communication</a></li>
-                                    <li><a href="#">Trading</a></li>
-                                    <li><a href="#">Interior Design</a></li>
-                                    <li><a href="#">Cybersecurity</a></li>
-                                    <li><a href="#">Engineering Services</a></li>
+                                    <li><a href="business-engineering-services.html">Engineering Services</a></li>
+                                    <li><a href="business-operational-and-cybersecurity.html">Operational Technology & Cybersecurity</a></li>
+                                    <li><a href="business-information-technology.html">IT and Communication</a></li>
+                                    <li><a href="business-construction.html">Construction</a></li>
+                                    <li><a href="business-trading.html">Trading</a></li>
+                                    <li><a href="business-interior-design.html">Interior Design</a></li>
                                 </ul>
                             </div>
                             </div>
@@ -312,9 +362,15 @@
         <script src="../scripts/imagesloaded.min.js"></script>
         <script src='../scripts/google.maps.min.js'></script>
         <script src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+        
+        
         <script src='../scripts/php/contact-form.js'></script>
         <script src='../scripts/jquery.tab-accordion.js'></script>
         <script src='../scripts/smooth.scroll.min.js'></script>
+
+
+
+
     </footer>
 </body>
 </html>
